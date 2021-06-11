@@ -3,12 +3,6 @@ function getData() {
 }
 
 getData().then((data) => {
-  // var card = document.querySelector(".card");
-  // var cardTitle = document.querySelector(".card-title");
-  // var cardImage = document.querySelector(".card-img-top");
-  // var cardSummary = document.querySelector(".card-text");
-  // var filmYili = document.querySelector(".yil");
-  // var cardTitleName = document.querySelector(".card-title-name");
   var cards = document.querySelector(".cards");
 
   data.forEach((tvShow) => {
@@ -32,13 +26,5 @@ getData().then((data) => {
         </div>
     </div>
       `;
-
-    // liste.innerHTML += `<li>${tvShow.show.name}</li>`;
-
-    // cardTitleName.innerHTML = `h4${tvShow.show.name}</h4>`;
-    // cardTitle.innerHTML = `h5${tvShow.show.name}</h5>`;
-    // cardImage.innerHTML = `<img src="${tvShow.show.image.medium}">`;
-    // cardSummary.innerHTML = `${tvShow.show.summary}`;
-    // filmYili.innerHTML = `${tvShow.airdate}`;
   });
 });
