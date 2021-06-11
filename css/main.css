@@ -1,0 +1,29 @@
+body{
+
+}
+.sa{
+    border: 10px solid #fff;
+    border-radius: 20px;
+    box-shadow:0px  0px  15px 10px rgb(173, 172, 172);
+}
+.sa-h1{
+    font-size:6rem;
+    
+    text-shadow: 3px -11px 3px   rgb(11, 194, 20),
+                 3px -9px 5px   rgb(56, 182, 115),
+                 3px -7px 7px   rgb(15, 168, 161),
+                 3px -5px 11px rgb(8, 116, 49);
+    
+}
+hr:not([size]) {
+    height:1rem;
+    width: 50vw;
+    margin: 0 auto;
+    box-shadow: 3px -5px 3px -3px black,
+                3px -7px 5px -3px black,
+                3px -9px 7px -3px black,
+                3px -11px 11px -3px black;
+    border-radius: 10px;
+
+    background-color:red;
+}
